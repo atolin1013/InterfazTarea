@@ -41,6 +41,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         ComboEspecie = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
+        SpinnerDias2 = new javax.swing.JSpinner();
+        jLabel94 = new javax.swing.JLabel();
         DatosOwner = new javax.swing.JPanel();
         NombreOwner = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
@@ -93,6 +95,20 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         ComidaDisponibleAve18 = new javax.swing.JTextField();
         jLabel90 = new javax.swing.JLabel();
         InscribirBttn1 = new javax.swing.JButton();
+        GestionEspecie = new javax.swing.JPanel();
+        DatosMascota5 = new javax.swing.JPanel();
+        jLabel21 = new javax.swing.JLabel();
+        ComboEspecieComida2 = new javax.swing.JComboBox<>();
+        InscribirBttn3 = new javax.swing.JButton();
+        DatosMascota25 = new javax.swing.JPanel();
+        jLabel100 = new javax.swing.JLabel();
+        jLabel101 = new javax.swing.JLabel();
+        ComidaDisponiblePerro20 = new javax.swing.JTextField();
+        ComidaDisponibleGato20 = new javax.swing.JTextField();
+        jLabel102 = new javax.swing.JLabel();
+        ComidaDisponiblePez20 = new javax.swing.JTextField();
+        ComidaDisponibleAve20 = new javax.swing.JTextField();
+        jLabel103 = new javax.swing.JLabel();
         Conflicto = new javax.swing.JPanel();
         DatosMascota22 = new javax.swing.JPanel();
         jLabel91 = new javax.swing.JLabel();
@@ -104,17 +120,18 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel99 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         DetalleTxt = new javax.swing.JTextPane();
-        DatosMascota23 = new javax.swing.JPanel();
         GuardarBttn = new javax.swing.JButton();
         LimpiarBttn = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Hotel Animal 0mg");
+        setName("VentanaPrincipal"); // NOI18N
 
         PanelPrincipal.setBackground(new java.awt.Color(107, 140, 58));
 
         jTabbedPane1.setBackground(new java.awt.Color(74, 89, 42));
         jTabbedPane1.setForeground(new java.awt.Color(217, 185, 126));
+        jTabbedPane1.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
         jTabbedPane1.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
 
         NuevaMascota.setBackground(new java.awt.Color(220, 232, 242));
@@ -154,18 +171,31 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(74, 89, 42));
         jLabel1.setText("Nombre:");
 
+        SpinnerDias2.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        SpinnerDias2.setModel(new javax.swing.SpinnerNumberModel(100, 100, null, 100));
+
+        jLabel94.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel94.setForeground(new java.awt.Color(74, 89, 42));
+        jLabel94.setText("Tamaño porción (gramos)");
+
         javax.swing.GroupLayout DatosMascotaLayout = new javax.swing.GroupLayout(DatosMascota);
         DatosMascota.setLayout(DatosMascotaLayout);
         DatosMascotaLayout.setHorizontalGroup(
             DatosMascotaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(DatosMascotaLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(DatosMascotaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel1)
-                    .addComponent(NombreMascota)
-                    .addComponent(jLabel2)
-                    .addComponent(ComboEspecie, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(DatosMascotaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(SpinnerDias2)
+                    .addGroup(DatosMascotaLayout.createSequentialGroup()
+                        .addGroup(DatosMascotaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(DatosMascotaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jLabel1)
+                                .addComponent(NombreMascota)
+                                .addComponent(jLabel2)
+                                .addComponent(ComboEspecie, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLabel94))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         DatosMascotaLayout.setVerticalGroup(
             DatosMascotaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -178,6 +208,10 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(ComboEspecie, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel94)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(SpinnerDias2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -555,7 +589,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         AlimentarCompletoBttn.setBackground(new java.awt.Color(217, 185, 126));
         AlimentarCompletoBttn.setFont(new java.awt.Font("Century Gothic", 1, 24)); // NOI18N
         AlimentarCompletoBttn.setForeground(new java.awt.Color(74, 89, 42));
-        AlimentarCompletoBttn.setText("Periodo de alimentación completado");
+        AlimentarCompletoBttn.setText("Periodo de alimentación uwu");
         AlimentarCompletoBttn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 AlimentarCompletoBttnActionPerformed(evt);
@@ -799,6 +833,178 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Registrar comida", Comida);
 
+        GestionEspecie.setBackground(new java.awt.Color(220, 232, 242));
+
+        DatosMascota5.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), " ", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Century Gothic", 1, 12), new java.awt.Color(74, 89, 42))); // NOI18N
+        DatosMascota5.setOpaque(false);
+
+        jLabel21.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(74, 89, 42));
+        jLabel21.setText("Especie:");
+
+        ComboEspecieComida2.setBackground(new java.awt.Color(166, 81, 73));
+        ComboEspecieComida2.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        ComboEspecieComida2.setForeground(new java.awt.Color(217, 185, 126));
+        ComboEspecieComida2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Perro", "Gato", "Pez", "Pájaro" }));
+        ComboEspecieComida2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ComboEspecieComida2ActionPerformed(evt);
+            }
+        });
+
+        InscribirBttn3.setBackground(new java.awt.Color(217, 185, 126));
+        InscribirBttn3.setFont(new java.awt.Font("Century Gothic", 1, 24)); // NOI18N
+        InscribirBttn3.setForeground(new java.awt.Color(74, 89, 42));
+        InscribirBttn3.setText("Guardar cambios");
+        InscribirBttn3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                InscribirBttn3ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout DatosMascota5Layout = new javax.swing.GroupLayout(DatosMascota5);
+        DatosMascota5.setLayout(DatosMascota5Layout);
+        DatosMascota5Layout.setHorizontalGroup(
+            DatosMascota5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DatosMascota5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(DatosMascota5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jLabel21)
+                    .addComponent(ComboEspecieComida2, 0, 250, Short.MAX_VALUE)
+                    .addComponent(InscribirBttn3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        DatosMascota5Layout.setVerticalGroup(
+            DatosMascota5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DatosMascota5Layout.createSequentialGroup()
+                .addComponent(jLabel21)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(ComboEspecieComida2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(InscribirBttn3, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        DatosMascota25.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Detalles", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Century Gothic", 1, 12), new java.awt.Color(74, 89, 42))); // NOI18N
+        DatosMascota25.setOpaque(false);
+
+        jLabel100.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel100.setForeground(new java.awt.Color(74, 89, 42));
+        jLabel100.setText("Tipo de alimento:");
+
+        jLabel101.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel101.setForeground(new java.awt.Color(74, 89, 42));
+        jLabel101.setText("Costo por día:");
+
+        ComidaDisponiblePerro20.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponiblePerro20.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        ComidaDisponiblePerro20.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponiblePerro20.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
+
+        ComidaDisponibleGato20.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponibleGato20.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        ComidaDisponibleGato20.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponibleGato20.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
+        ComidaDisponibleGato20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ComidaDisponibleGato20ActionPerformed(evt);
+            }
+        });
+
+        jLabel102.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel102.setForeground(new java.awt.Color(74, 89, 42));
+        jLabel102.setText("Tiempo de comida:");
+
+        ComidaDisponiblePez20.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponiblePez20.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        ComidaDisponiblePez20.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponiblePez20.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
+        ComidaDisponiblePez20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ComidaDisponiblePez20ActionPerformed(evt);
+            }
+        });
+
+        ComidaDisponibleAve20.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponibleAve20.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        ComidaDisponibleAve20.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponibleAve20.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
+
+        jLabel103.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel103.setForeground(new java.awt.Color(74, 89, 42));
+        jLabel103.setText("Tamaño de porción:");
+
+        javax.swing.GroupLayout DatosMascota25Layout = new javax.swing.GroupLayout(DatosMascota25);
+        DatosMascota25.setLayout(DatosMascota25Layout);
+        DatosMascota25Layout.setHorizontalGroup(
+            DatosMascota25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DatosMascota25Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(DatosMascota25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(ComidaDisponibleAve20)
+                    .addComponent(ComidaDisponiblePerro20)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, DatosMascota25Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGroup(DatosMascota25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(ComidaDisponiblePez20, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 542, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(ComidaDisponibleGato20, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 542, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(DatosMascota25Layout.createSequentialGroup()
+                        .addGroup(DatosMascota25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel103)
+                            .addComponent(jLabel100)
+                            .addComponent(jLabel101))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, DatosMascota25Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel102)
+                .addGap(373, 373, 373))
+        );
+        DatosMascota25Layout.setVerticalGroup(
+            DatosMascota25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DatosMascota25Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel103)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(ComidaDisponiblePerro20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel100)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(ComidaDisponibleGato20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel102)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(ComidaDisponiblePez20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel101)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(ComidaDisponibleAve20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(57, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout GestionEspecieLayout = new javax.swing.GroupLayout(GestionEspecie);
+        GestionEspecie.setLayout(GestionEspecieLayout);
+        GestionEspecieLayout.setHorizontalGroup(
+            GestionEspecieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(GestionEspecieLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(DatosMascota5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(DatosMascota25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(24, Short.MAX_VALUE))
+        );
+        GestionEspecieLayout.setVerticalGroup(
+            GestionEspecieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, GestionEspecieLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(GestionEspecieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(DatosMascota25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(DatosMascota5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(50, 50, 50))
+        );
+
+        jTabbedPane1.addTab("Gestionar especie", GestionEspecie);
+
         Conflicto.setBackground(new java.awt.Color(220, 232, 242));
 
         DatosMascota22.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Características del informe", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Century Gothic", 1, 12), new java.awt.Color(74, 89, 42))); // NOI18N
@@ -854,51 +1060,45 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             DatosMascota22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(DatosMascota22Layout.createSequentialGroup()
                 .addContainerGap()
+                .addGroup(DatosMascota22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(SpinnerFecha)
+                    .addComponent(jLabel91, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel92, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(ComboMascotaInforme, 0, 433, Short.MAX_VALUE)
+                    .addComponent(jLabel99, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(ComboCausa, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGroup(DatosMascota22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(DatosMascota22Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(ComboCausa, javax.swing.GroupLayout.PREFERRED_SIZE, 433, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(SpinnerFecha)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel93)
+                        .addGap(321, 321, 321))
                     .addGroup(DatosMascota22Layout.createSequentialGroup()
-                        .addGroup(DatosMascota22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(DatosMascota22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addGroup(DatosMascota22Layout.createSequentialGroup()
-                                    .addComponent(jLabel93)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jScrollPane1))
-                                .addComponent(jLabel91)
-                                .addComponent(jLabel92)
-                                .addComponent(ComboMascotaInforme, javax.swing.GroupLayout.PREFERRED_SIZE, 433, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel99))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane1)
+                        .addContainerGap())))
         );
         DatosMascota22Layout.setVerticalGroup(
             DatosMascota22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(DatosMascota22Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel91)
+                .addGroup(DatosMascota22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel91)
+                    .addComponent(jLabel93))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(ComboCausa, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel92)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(ComboMascotaInforme, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel99)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(SpinnerFecha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addGroup(DatosMascota22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DatosMascota22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(DatosMascota22Layout.createSequentialGroup()
-                        .addComponent(jLabel93)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 109, Short.MAX_VALUE))
-                .addContainerGap())
+                        .addComponent(ComboCausa, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel92)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(ComboMascotaInforme, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel99)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(SpinnerFecha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jScrollPane1))
+                .addContainerGap(133, Short.MAX_VALUE))
         );
-
-        DatosMascota23.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), " ", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Century Gothic", 1, 12), new java.awt.Color(74, 89, 42))); // NOI18N
-        DatosMascota23.setOpaque(false);
 
         GuardarBttn.setBackground(new java.awt.Color(217, 185, 126));
         GuardarBttn.setFont(new java.awt.Font("Century Gothic", 1, 24)); // NOI18N
@@ -920,46 +1120,30 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout DatosMascota23Layout = new javax.swing.GroupLayout(DatosMascota23);
-        DatosMascota23.setLayout(DatosMascota23Layout);
-        DatosMascota23Layout.setHorizontalGroup(
-            DatosMascota23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(DatosMascota23Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(DatosMascota23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(GuardarBttn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(LimpiarBttn, javax.swing.GroupLayout.DEFAULT_SIZE, 360, Short.MAX_VALUE))
-                .addContainerGap())
-        );
-        DatosMascota23Layout.setVerticalGroup(
-            DatosMascota23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, DatosMascota23Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(LimpiarBttn)
-                .addGap(18, 18, 18)
-                .addComponent(GuardarBttn, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-        );
-
         javax.swing.GroupLayout ConflictoLayout = new javax.swing.GroupLayout(Conflicto);
         Conflicto.setLayout(ConflictoLayout);
         ConflictoLayout.setHorizontalGroup(
             ConflictoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(ConflictoLayout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ConflictoLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(DatosMascota22, javax.swing.GroupLayout.PREFERRED_SIZE, 456, Short.MAX_VALUE)
-                .addGap(18, 18, 18)
-                .addComponent(DatosMascota23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(ConflictoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(ConflictoLayout.createSequentialGroup()
+                        .addComponent(LimpiarBttn, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 358, Short.MAX_VALUE)
+                        .addComponent(GuardarBttn, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(DatosMascota22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(24, 24, 24))
         );
         ConflictoLayout.setVerticalGroup(
             ConflictoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(ConflictoLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(ConflictoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(DatosMascota23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(DatosMascota22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(50, 50, 50))
+                .addComponent(DatosMascota22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(ConflictoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(GuardarBttn)
+                    .addComponent(LimpiarBttn))
+                .addContainerGap())
         );
 
         jTabbedPane1.addTab("Registrar conflicto", Conflicto);
@@ -1063,6 +1247,22 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_FechaIngresoActionPerformed
 
+    private void ComboEspecieComida2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ComboEspecieComida2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ComboEspecieComida2ActionPerformed
+
+    private void ComidaDisponibleGato20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ComidaDisponibleGato20ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ComidaDisponibleGato20ActionPerformed
+
+    private void ComidaDisponiblePez20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ComidaDisponiblePez20ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ComidaDisponiblePez20ActionPerformed
+
+    private void InscribirBttn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InscribirBttn3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_InscribirBttn3ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1074,7 +1274,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
+                if ("Metal".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
@@ -1104,117 +1304,40 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> ComboCausa;
     private javax.swing.JComboBox<String> ComboEspecie;
     private javax.swing.JComboBox<String> ComboEspecieComida;
+    private javax.swing.JComboBox<String> ComboEspecieComida2;
     private javax.swing.JComboBox<String> ComboMascotaInforme;
     private javax.swing.JPanel Comida;
     private javax.swing.JTextField ComidaDisponibleAve;
-    private javax.swing.JTextField ComidaDisponibleAve1;
-    private javax.swing.JTextField ComidaDisponibleAve10;
-    private javax.swing.JTextField ComidaDisponibleAve11;
-    private javax.swing.JTextField ComidaDisponibleAve12;
-    private javax.swing.JTextField ComidaDisponibleAve13;
-    private javax.swing.JTextField ComidaDisponibleAve14;
-    private javax.swing.JTextField ComidaDisponibleAve15;
-    private javax.swing.JTextField ComidaDisponibleAve16;
-    private javax.swing.JTextField ComidaDisponibleAve17;
     private javax.swing.JTextField ComidaDisponibleAve18;
-    private javax.swing.JTextField ComidaDisponibleAve2;
-    private javax.swing.JTextField ComidaDisponibleAve3;
-    private javax.swing.JTextField ComidaDisponibleAve4;
-    private javax.swing.JTextField ComidaDisponibleAve5;
-    private javax.swing.JTextField ComidaDisponibleAve6;
-    private javax.swing.JTextField ComidaDisponibleAve7;
-    private javax.swing.JTextField ComidaDisponibleAve8;
-    private javax.swing.JTextField ComidaDisponibleAve9;
+    private javax.swing.JTextField ComidaDisponibleAve20;
     private javax.swing.JTextField ComidaDisponibleGato;
-    private javax.swing.JTextField ComidaDisponibleGato1;
-    private javax.swing.JTextField ComidaDisponibleGato10;
-    private javax.swing.JTextField ComidaDisponibleGato11;
-    private javax.swing.JTextField ComidaDisponibleGato12;
-    private javax.swing.JTextField ComidaDisponibleGato13;
-    private javax.swing.JTextField ComidaDisponibleGato14;
-    private javax.swing.JTextField ComidaDisponibleGato15;
-    private javax.swing.JTextField ComidaDisponibleGato16;
-    private javax.swing.JTextField ComidaDisponibleGato17;
     private javax.swing.JTextField ComidaDisponibleGato18;
-    private javax.swing.JTextField ComidaDisponibleGato2;
-    private javax.swing.JTextField ComidaDisponibleGato3;
-    private javax.swing.JTextField ComidaDisponibleGato4;
-    private javax.swing.JTextField ComidaDisponibleGato5;
-    private javax.swing.JTextField ComidaDisponibleGato6;
-    private javax.swing.JTextField ComidaDisponibleGato7;
-    private javax.swing.JTextField ComidaDisponibleGato8;
-    private javax.swing.JTextField ComidaDisponibleGato9;
+    private javax.swing.JTextField ComidaDisponibleGato20;
     private javax.swing.JTextField ComidaDisponiblePerro;
-    private javax.swing.JTextField ComidaDisponiblePerro1;
-    private javax.swing.JTextField ComidaDisponiblePerro10;
-    private javax.swing.JTextField ComidaDisponiblePerro11;
-    private javax.swing.JTextField ComidaDisponiblePerro12;
-    private javax.swing.JTextField ComidaDisponiblePerro13;
-    private javax.swing.JTextField ComidaDisponiblePerro14;
-    private javax.swing.JTextField ComidaDisponiblePerro15;
-    private javax.swing.JTextField ComidaDisponiblePerro16;
-    private javax.swing.JTextField ComidaDisponiblePerro17;
     private javax.swing.JTextField ComidaDisponiblePerro18;
-    private javax.swing.JTextField ComidaDisponiblePerro2;
-    private javax.swing.JTextField ComidaDisponiblePerro3;
-    private javax.swing.JTextField ComidaDisponiblePerro4;
-    private javax.swing.JTextField ComidaDisponiblePerro5;
-    private javax.swing.JTextField ComidaDisponiblePerro6;
-    private javax.swing.JTextField ComidaDisponiblePerro7;
-    private javax.swing.JTextField ComidaDisponiblePerro8;
-    private javax.swing.JTextField ComidaDisponiblePerro9;
+    private javax.swing.JTextField ComidaDisponiblePerro20;
     private javax.swing.JTextField ComidaDisponiblePez;
-    private javax.swing.JTextField ComidaDisponiblePez1;
-    private javax.swing.JTextField ComidaDisponiblePez10;
-    private javax.swing.JTextField ComidaDisponiblePez11;
-    private javax.swing.JTextField ComidaDisponiblePez12;
-    private javax.swing.JTextField ComidaDisponiblePez13;
-    private javax.swing.JTextField ComidaDisponiblePez14;
-    private javax.swing.JTextField ComidaDisponiblePez15;
-    private javax.swing.JTextField ComidaDisponiblePez16;
-    private javax.swing.JTextField ComidaDisponiblePez17;
     private javax.swing.JTextField ComidaDisponiblePez18;
-    private javax.swing.JTextField ComidaDisponiblePez2;
-    private javax.swing.JTextField ComidaDisponiblePez3;
-    private javax.swing.JTextField ComidaDisponiblePez4;
-    private javax.swing.JTextField ComidaDisponiblePez5;
-    private javax.swing.JTextField ComidaDisponiblePez6;
-    private javax.swing.JTextField ComidaDisponiblePez7;
-    private javax.swing.JTextField ComidaDisponiblePez8;
-    private javax.swing.JTextField ComidaDisponiblePez9;
+    private javax.swing.JTextField ComidaDisponiblePez20;
     private javax.swing.JPanel Conflicto;
     private javax.swing.JButton ConflictoBttn;
     private javax.swing.JPanel DatosContrato;
     private javax.swing.JPanel DatosMascota;
     private javax.swing.JPanel DatosMascota1;
-    private javax.swing.JPanel DatosMascota10;
-    private javax.swing.JPanel DatosMascota11;
-    private javax.swing.JPanel DatosMascota12;
-    private javax.swing.JPanel DatosMascota13;
-    private javax.swing.JPanel DatosMascota14;
-    private javax.swing.JPanel DatosMascota15;
-    private javax.swing.JPanel DatosMascota16;
-    private javax.swing.JPanel DatosMascota17;
-    private javax.swing.JPanel DatosMascota18;
-    private javax.swing.JPanel DatosMascota19;
     private javax.swing.JPanel DatosMascota2;
-    private javax.swing.JPanel DatosMascota20;
     private javax.swing.JPanel DatosMascota21;
     private javax.swing.JPanel DatosMascota22;
-    private javax.swing.JPanel DatosMascota23;
+    private javax.swing.JPanel DatosMascota25;
     private javax.swing.JPanel DatosMascota3;
-    private javax.swing.JPanel DatosMascota4;
     private javax.swing.JPanel DatosMascota5;
-    private javax.swing.JPanel DatosMascota6;
-    private javax.swing.JPanel DatosMascota7;
-    private javax.swing.JPanel DatosMascota8;
-    private javax.swing.JPanel DatosMascota9;
     private javax.swing.JPanel DatosOwner;
     private javax.swing.JTextPane DetalleTxt;
     private javax.swing.JTextField FechaIngreso;
+    private javax.swing.JPanel GestionEspecie;
     private javax.swing.JButton GuardarBttn;
     private javax.swing.JButton InscribirBttn;
     private javax.swing.JButton InscribirBttn1;
+    private javax.swing.JButton InscribirBttn3;
     private javax.swing.JButton LimpiarBttn;
     private javax.swing.JTextField NombreMascota;
     private javax.swing.JTextField NombreOwner;
@@ -1226,6 +1349,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton ResetBttn;
     private javax.swing.JSpinner SpinnerDias;
     private javax.swing.JSpinner SpinnerDias1;
+    private javax.swing.JSpinner SpinnerDias2;
     private javax.swing.JSpinner SpinnerFecha;
     private javax.swing.JTextField TiempoComidaAve;
     private javax.swing.JTextField TiempoComidaGato;
@@ -1233,6 +1357,10 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JTextField TiempoComidaPez;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel100;
+    private javax.swing.JLabel jLabel101;
+    private javax.swing.JLabel jLabel102;
+    private javax.swing.JLabel jLabel103;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -1241,81 +1369,14 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
-    private javax.swing.JLabel jLabel37;
-    private javax.swing.JLabel jLabel38;
-    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel40;
-    private javax.swing.JLabel jLabel41;
-    private javax.swing.JLabel jLabel42;
-    private javax.swing.JLabel jLabel43;
-    private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel45;
-    private javax.swing.JLabel jLabel46;
-    private javax.swing.JLabel jLabel47;
-    private javax.swing.JLabel jLabel48;
-    private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel50;
-    private javax.swing.JLabel jLabel51;
-    private javax.swing.JLabel jLabel52;
-    private javax.swing.JLabel jLabel53;
-    private javax.swing.JLabel jLabel54;
-    private javax.swing.JLabel jLabel55;
-    private javax.swing.JLabel jLabel56;
-    private javax.swing.JLabel jLabel57;
-    private javax.swing.JLabel jLabel58;
-    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel60;
-    private javax.swing.JLabel jLabel61;
-    private javax.swing.JLabel jLabel62;
-    private javax.swing.JLabel jLabel63;
-    private javax.swing.JLabel jLabel64;
-    private javax.swing.JLabel jLabel65;
-    private javax.swing.JLabel jLabel66;
-    private javax.swing.JLabel jLabel67;
-    private javax.swing.JLabel jLabel68;
-    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel70;
-    private javax.swing.JLabel jLabel71;
-    private javax.swing.JLabel jLabel72;
-    private javax.swing.JLabel jLabel73;
-    private javax.swing.JLabel jLabel74;
-    private javax.swing.JLabel jLabel75;
-    private javax.swing.JLabel jLabel76;
-    private javax.swing.JLabel jLabel77;
-    private javax.swing.JLabel jLabel78;
-    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel80;
-    private javax.swing.JLabel jLabel81;
-    private javax.swing.JLabel jLabel82;
-    private javax.swing.JLabel jLabel83;
-    private javax.swing.JLabel jLabel84;
-    private javax.swing.JLabel jLabel85;
-    private javax.swing.JLabel jLabel86;
     private javax.swing.JLabel jLabel87;
     private javax.swing.JLabel jLabel88;
     private javax.swing.JLabel jLabel89;
@@ -1324,6 +1385,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel91;
     private javax.swing.JLabel jLabel92;
     private javax.swing.JLabel jLabel93;
+    private javax.swing.JLabel jLabel94;
     private javax.swing.JLabel jLabel99;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTabbedPane jTabbedPane1;
