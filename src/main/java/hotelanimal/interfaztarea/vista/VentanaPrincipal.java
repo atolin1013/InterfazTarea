@@ -99,7 +99,6 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         DatosMascota5 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
         ComboEspecieComida2 = new javax.swing.JComboBox<>();
-        InscribirBttn3 = new javax.swing.JButton();
         DatosMascota25 = new javax.swing.JPanel();
         jLabel100 = new javax.swing.JLabel();
         jLabel101 = new javax.swing.JLabel();
@@ -109,6 +108,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         ComidaDisponiblePez20 = new javax.swing.JTextField();
         ComidaDisponibleAve20 = new javax.swing.JTextField();
         jLabel103 = new javax.swing.JLabel();
+        InscribirBttn3 = new javax.swing.JButton();
+        InscribirBttn4 = new javax.swing.JButton();
         Conflicto = new javax.swing.JPanel();
         DatosMascota22 = new javax.swing.JPanel();
         jLabel91 = new javax.swing.JLabel();
@@ -122,6 +123,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         DetalleTxt = new javax.swing.JTextPane();
         GuardarBttn = new javax.swing.JButton();
         LimpiarBttn = new javax.swing.JButton();
+        VisualizarAnimales = new javax.swing.JPanel();
+        DatosMascota6 = new javax.swing.JPanel();
+        jLabel22 = new javax.swing.JLabel();
+        ComboEspecieComida3 = new javax.swing.JComboBox<>();
+        DatosMascota26 = new javax.swing.JPanel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
+        InscribirBttn5 = new javax.swing.JButton();
+        InscribirBttn6 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Hotel Animal 0mg");
@@ -149,17 +159,17 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         DatosMascota.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Datos de la mascota", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Century Gothic", 1, 12), new java.awt.Color(74, 89, 42))); // NOI18N
         DatosMascota.setOpaque(false);
 
-        NombreMascota.setBackground(new java.awt.Color(166, 81, 73));
+        NombreMascota.setBackground(new java.awt.Color(217, 185, 126));
         NombreMascota.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        NombreMascota.setForeground(new java.awt.Color(217, 185, 126));
+        NombreMascota.setForeground(new java.awt.Color(166, 81, 73));
 
         jLabel2.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(74, 89, 42));
         jLabel2.setText("Especie:");
 
-        ComboEspecie.setBackground(new java.awt.Color(166, 81, 73));
+        ComboEspecie.setBackground(new java.awt.Color(217, 185, 126));
         ComboEspecie.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComboEspecie.setForeground(new java.awt.Color(217, 185, 126));
+        ComboEspecie.setForeground(new java.awt.Color(166, 81, 73));
         ComboEspecie.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Perro", "Gato", "Pez", "Pájaro" }));
         ComboEspecie.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -218,9 +228,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         DatosOwner.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Datos del dueño", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Century Gothic", 1, 12), new java.awt.Color(74, 89, 42))); // NOI18N
         DatosOwner.setOpaque(false);
 
-        NombreOwner.setBackground(new java.awt.Color(166, 81, 73));
+        NombreOwner.setBackground(new java.awt.Color(217, 185, 126));
         NombreOwner.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        NombreOwner.setForeground(new java.awt.Color(217, 185, 126));
+        NombreOwner.setForeground(new java.awt.Color(166, 81, 73));
 
         jLabel3.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(74, 89, 42));
@@ -230,9 +240,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(74, 89, 42));
         jLabel4.setText("Nombre:");
 
-        NumeroTelefono.setBackground(new java.awt.Color(166, 81, 73));
+        NumeroTelefono.setBackground(new java.awt.Color(217, 185, 126));
         NumeroTelefono.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        NumeroTelefono.setForeground(new java.awt.Color(217, 185, 126));
+        NumeroTelefono.setForeground(new java.awt.Color(166, 81, 73));
 
         javax.swing.GroupLayout DatosOwnerLayout = new javax.swing.GroupLayout(DatosOwner);
         DatosOwner.setLayout(DatosOwnerLayout);
@@ -264,9 +274,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         DatosContrato.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Datos del contrato", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Century Gothic", 1, 12), new java.awt.Color(74, 89, 42))); // NOI18N
         DatosContrato.setOpaque(false);
 
-        FechaIngreso.setBackground(new java.awt.Color(166, 81, 73));
+        FechaIngreso.setBackground(new java.awt.Color(217, 185, 126));
         FechaIngreso.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        FechaIngreso.setForeground(new java.awt.Color(217, 185, 126));
+        FechaIngreso.setForeground(new java.awt.Color(166, 81, 73));
         FechaIngreso.setText("DD/MM/AA");
         FechaIngreso.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -285,9 +295,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         SpinnerDias.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         SpinnerDias.setModel(new javax.swing.SpinnerNumberModel(1, 1, null, 1));
 
-        PrecioFinal.setBackground(new java.awt.Color(166, 81, 73));
+        PrecioFinal.setBackground(new java.awt.Color(217, 185, 126));
         PrecioFinal.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        PrecioFinal.setForeground(new java.awt.Color(217, 185, 126));
+        PrecioFinal.setForeground(new java.awt.Color(166, 81, 73));
         PrecioFinal.setFocusable(false);
 
         jLabel9.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
@@ -295,9 +305,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel9.setText("Costo final:");
 
-        PrecioPDia.setBackground(new java.awt.Color(166, 81, 73));
+        PrecioPDia.setBackground(new java.awt.Color(217, 185, 126));
         PrecioPDia.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        PrecioPDia.setForeground(new java.awt.Color(217, 185, 126));
+        PrecioPDia.setForeground(new java.awt.Color(166, 81, 73));
         PrecioPDia.setFocusable(false);
 
         jLabel8.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
@@ -390,25 +400,25 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Registrar nueva mascota", NuevaMascota);
+        jTabbedPane1.addTab("Nueva mascota", NuevaMascota);
 
         Alimentar.setBackground(new java.awt.Color(220, 232, 242));
 
         DatosMascota1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Tiempos de comida", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Century Gothic", 1, 12), new java.awt.Color(74, 89, 42))); // NOI18N
         DatosMascota1.setOpaque(false);
 
-        TiempoComidaPerro.setBackground(new java.awt.Color(166, 81, 73));
+        TiempoComidaPerro.setBackground(new java.awt.Color(217, 185, 126));
         TiempoComidaPerro.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        TiempoComidaPerro.setForeground(new java.awt.Color(217, 185, 126));
+        TiempoComidaPerro.setForeground(new java.awt.Color(166, 81, 73));
         TiempoComidaPerro.setFocusable(false);
 
         jLabel10.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(74, 89, 42));
         jLabel10.setText("Perro:");
 
-        TiempoComidaGato.setBackground(new java.awt.Color(166, 81, 73));
+        TiempoComidaGato.setBackground(new java.awt.Color(217, 185, 126));
         TiempoComidaGato.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        TiempoComidaGato.setForeground(new java.awt.Color(217, 185, 126));
+        TiempoComidaGato.setForeground(new java.awt.Color(166, 81, 73));
         TiempoComidaGato.setFocusable(false);
         TiempoComidaGato.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -420,18 +430,18 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel11.setForeground(new java.awt.Color(74, 89, 42));
         jLabel11.setText("Gato:");
 
-        TiempoComidaPez.setBackground(new java.awt.Color(166, 81, 73));
+        TiempoComidaPez.setBackground(new java.awt.Color(217, 185, 126));
         TiempoComidaPez.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        TiempoComidaPez.setForeground(new java.awt.Color(217, 185, 126));
+        TiempoComidaPez.setForeground(new java.awt.Color(166, 81, 73));
         TiempoComidaPez.setFocusable(false);
 
         jLabel12.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(74, 89, 42));
         jLabel12.setText("Pez:");
 
-        TiempoComidaAve.setBackground(new java.awt.Color(166, 81, 73));
+        TiempoComidaAve.setBackground(new java.awt.Color(217, 185, 126));
         TiempoComidaAve.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        TiempoComidaAve.setForeground(new java.awt.Color(217, 185, 126));
+        TiempoComidaAve.setForeground(new java.awt.Color(166, 81, 73));
         TiempoComidaAve.setFocusable(false);
 
         jLabel13.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
@@ -497,15 +507,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel16.setForeground(new java.awt.Color(74, 89, 42));
         jLabel16.setText("Ave:");
 
-        ComidaDisponiblePerro.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponiblePerro.setBackground(new java.awt.Color(217, 185, 126));
         ComidaDisponiblePerro.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComidaDisponiblePerro.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponiblePerro.setForeground(new java.awt.Color(166, 81, 73));
         ComidaDisponiblePerro.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
         ComidaDisponiblePerro.setFocusable(false);
 
-        ComidaDisponibleGato.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponibleGato.setBackground(new java.awt.Color(217, 185, 126));
         ComidaDisponibleGato.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComidaDisponibleGato.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponibleGato.setForeground(new java.awt.Color(166, 81, 73));
         ComidaDisponibleGato.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
         ComidaDisponibleGato.setFocusable(false);
         ComidaDisponibleGato.addActionListener(new java.awt.event.ActionListener() {
@@ -518,9 +528,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel15.setForeground(new java.awt.Color(74, 89, 42));
         jLabel15.setText("Pez:");
 
-        ComidaDisponiblePez.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponiblePez.setBackground(new java.awt.Color(217, 185, 126));
         ComidaDisponiblePez.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComidaDisponiblePez.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponiblePez.setForeground(new java.awt.Color(166, 81, 73));
         ComidaDisponiblePez.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
         ComidaDisponiblePez.setFocusable(false);
         ComidaDisponiblePez.addActionListener(new java.awt.event.ActionListener() {
@@ -529,9 +539,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        ComidaDisponibleAve.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponibleAve.setBackground(new java.awt.Color(217, 185, 126));
         ComidaDisponibleAve.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComidaDisponibleAve.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponibleAve.setForeground(new java.awt.Color(166, 81, 73));
         ComidaDisponibleAve.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
         ComidaDisponibleAve.setFocusable(false);
 
@@ -637,7 +647,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Registrar periodo de alimentación", Alimentar);
+        jTabbedPane1.addTab("Alimentar", Alimentar);
 
         Comida.setBackground(new java.awt.Color(220, 232, 242));
 
@@ -648,9 +658,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color(74, 89, 42));
         jLabel7.setText("Especie:");
 
-        ComboEspecieComida.setBackground(new java.awt.Color(166, 81, 73));
+        ComboEspecieComida.setBackground(new java.awt.Color(217, 185, 126));
         ComboEspecieComida.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComboEspecieComida.setForeground(new java.awt.Color(217, 185, 126));
+        ComboEspecieComida.setForeground(new java.awt.Color(166, 81, 73));
         ComboEspecieComida.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Perro", "Gato", "Pez", "Pájaro" }));
         ComboEspecieComida.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -706,15 +716,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel88.setForeground(new java.awt.Color(74, 89, 42));
         jLabel88.setText("Ave:");
 
-        ComidaDisponiblePerro18.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponiblePerro18.setBackground(new java.awt.Color(217, 185, 126));
         ComidaDisponiblePerro18.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComidaDisponiblePerro18.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponiblePerro18.setForeground(new java.awt.Color(166, 81, 73));
         ComidaDisponiblePerro18.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
         ComidaDisponiblePerro18.setFocusable(false);
 
-        ComidaDisponibleGato18.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponibleGato18.setBackground(new java.awt.Color(217, 185, 126));
         ComidaDisponibleGato18.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComidaDisponibleGato18.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponibleGato18.setForeground(new java.awt.Color(166, 81, 73));
         ComidaDisponibleGato18.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
         ComidaDisponibleGato18.setFocusable(false);
         ComidaDisponibleGato18.addActionListener(new java.awt.event.ActionListener() {
@@ -727,9 +737,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel89.setForeground(new java.awt.Color(74, 89, 42));
         jLabel89.setText("Pez:");
 
-        ComidaDisponiblePez18.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponiblePez18.setBackground(new java.awt.Color(217, 185, 126));
         ComidaDisponiblePez18.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComidaDisponiblePez18.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponiblePez18.setForeground(new java.awt.Color(166, 81, 73));
         ComidaDisponiblePez18.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
         ComidaDisponiblePez18.setFocusable(false);
         ComidaDisponiblePez18.addActionListener(new java.awt.event.ActionListener() {
@@ -738,9 +748,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        ComidaDisponibleAve18.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponibleAve18.setBackground(new java.awt.Color(217, 185, 126));
         ComidaDisponibleAve18.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComidaDisponibleAve18.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponibleAve18.setForeground(new java.awt.Color(166, 81, 73));
         ComidaDisponibleAve18.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
         ComidaDisponibleAve18.setFocusable(false);
 
@@ -831,7 +841,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Registrar comida", Comida);
+        jTabbedPane1.addTab("Inventario comida", Comida);
 
         GestionEspecie.setBackground(new java.awt.Color(220, 232, 242));
 
@@ -842,23 +852,13 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel21.setForeground(new java.awt.Color(74, 89, 42));
         jLabel21.setText("Especie:");
 
-        ComboEspecieComida2.setBackground(new java.awt.Color(166, 81, 73));
+        ComboEspecieComida2.setBackground(new java.awt.Color(217, 185, 126));
         ComboEspecieComida2.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComboEspecieComida2.setForeground(new java.awt.Color(217, 185, 126));
+        ComboEspecieComida2.setForeground(new java.awt.Color(166, 81, 73));
         ComboEspecieComida2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Perro", "Gato", "Pez", "Pájaro" }));
         ComboEspecieComida2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ComboEspecieComida2ActionPerformed(evt);
-            }
-        });
-
-        InscribirBttn3.setBackground(new java.awt.Color(217, 185, 126));
-        InscribirBttn3.setFont(new java.awt.Font("Century Gothic", 1, 24)); // NOI18N
-        InscribirBttn3.setForeground(new java.awt.Color(74, 89, 42));
-        InscribirBttn3.setText("Guardar cambios");
-        InscribirBttn3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                InscribirBttn3ActionPerformed(evt);
             }
         });
 
@@ -868,10 +868,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             DatosMascota5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(DatosMascota5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(DatosMascota5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(DatosMascota5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel21)
-                    .addComponent(ComboEspecieComida2, 0, 250, Short.MAX_VALUE)
-                    .addComponent(InscribirBttn3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(ComboEspecieComida2, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         DatosMascota5Layout.setVerticalGroup(
@@ -880,9 +879,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                 .addComponent(jLabel21)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(ComboEspecieComida2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(InscribirBttn3, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         DatosMascota25.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Detalles", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Century Gothic", 1, 12), new java.awt.Color(74, 89, 42))); // NOI18N
@@ -896,14 +893,14 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel101.setForeground(new java.awt.Color(74, 89, 42));
         jLabel101.setText("Costo por día:");
 
-        ComidaDisponiblePerro20.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponiblePerro20.setBackground(new java.awt.Color(217, 185, 126));
         ComidaDisponiblePerro20.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComidaDisponiblePerro20.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponiblePerro20.setForeground(new java.awt.Color(166, 81, 73));
         ComidaDisponiblePerro20.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
 
-        ComidaDisponibleGato20.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponibleGato20.setBackground(new java.awt.Color(217, 185, 126));
         ComidaDisponibleGato20.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComidaDisponibleGato20.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponibleGato20.setForeground(new java.awt.Color(166, 81, 73));
         ComidaDisponibleGato20.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
         ComidaDisponibleGato20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -915,9 +912,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel102.setForeground(new java.awt.Color(74, 89, 42));
         jLabel102.setText("Tiempo de comida:");
 
-        ComidaDisponiblePez20.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponiblePez20.setBackground(new java.awt.Color(217, 185, 126));
         ComidaDisponiblePez20.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComidaDisponiblePez20.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponiblePez20.setForeground(new java.awt.Color(166, 81, 73));
         ComidaDisponiblePez20.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
         ComidaDisponiblePez20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -925,9 +922,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        ComidaDisponibleAve20.setBackground(new java.awt.Color(166, 81, 73));
+        ComidaDisponibleAve20.setBackground(new java.awt.Color(217, 185, 126));
         ComidaDisponibleAve20.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
-        ComidaDisponibleAve20.setForeground(new java.awt.Color(217, 185, 126));
+        ComidaDisponibleAve20.setForeground(new java.awt.Color(166, 81, 73));
         ComidaDisponibleAve20.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
 
         jLabel103.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
@@ -979,8 +976,28 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                 .addComponent(jLabel101)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(ComidaDisponibleAve20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(57, Short.MAX_VALUE))
+                .addContainerGap(55, Short.MAX_VALUE))
         );
+
+        InscribirBttn3.setBackground(new java.awt.Color(217, 185, 126));
+        InscribirBttn3.setFont(new java.awt.Font("Century Gothic", 1, 24)); // NOI18N
+        InscribirBttn3.setForeground(new java.awt.Color(74, 89, 42));
+        InscribirBttn3.setText("Guardar cambios");
+        InscribirBttn3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                InscribirBttn3ActionPerformed(evt);
+            }
+        });
+
+        InscribirBttn4.setBackground(new java.awt.Color(217, 185, 126));
+        InscribirBttn4.setFont(new java.awt.Font("Century Gothic", 1, 24)); // NOI18N
+        InscribirBttn4.setForeground(new java.awt.Color(74, 89, 42));
+        InscribirBttn4.setText("Resetear datos");
+        InscribirBttn4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                InscribirBttn4ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout GestionEspecieLayout = new javax.swing.GroupLayout(GestionEspecie);
         GestionEspecie.setLayout(GestionEspecieLayout);
@@ -988,9 +1005,13 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             GestionEspecieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(GestionEspecieLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(DatosMascota5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(GestionEspecieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(InscribirBttn3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(DatosMascota5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
-                .addComponent(DatosMascota25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(GestionEspecieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(DatosMascota25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(InscribirBttn4, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(24, Short.MAX_VALUE))
         );
         GestionEspecieLayout.setVerticalGroup(
@@ -1000,7 +1021,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                 .addGroup(GestionEspecieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(DatosMascota25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(DatosMascota5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(50, 50, 50))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(GestionEspecieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(InscribirBttn3)
+                    .addComponent(InscribirBttn4))
+                .addGap(7, 7, 7))
         );
 
         jTabbedPane1.addTab("Gestionar especie", GestionEspecie);
@@ -1022,9 +1047,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel93.setForeground(new java.awt.Color(74, 89, 42));
         jLabel93.setText("Detalle:");
 
-        ComboCausa.setBackground(new java.awt.Color(166, 81, 73));
+        ComboCausa.setBackground(new java.awt.Color(217, 185, 126));
         ComboCausa.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
-        ComboCausa.setForeground(new java.awt.Color(217, 185, 126));
+        ComboCausa.setForeground(new java.awt.Color(166, 81, 73));
         ComboCausa.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No se encuentra el expediente de inquilinos", "No hay alimentación para mascota en particular", "Mascota no comió" }));
         ComboCausa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1032,9 +1057,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        ComboMascotaInforme.setBackground(new java.awt.Color(166, 81, 73));
+        ComboMascotaInforme.setBackground(new java.awt.Color(217, 185, 126));
         ComboMascotaInforme.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
-        ComboMascotaInforme.setForeground(new java.awt.Color(217, 185, 126));
+        ComboMascotaInforme.setForeground(new java.awt.Color(166, 81, 73));
         ComboMascotaInforme.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No se encuentra el expediente de inquilinos", "No hay alimentación para mascota en particular", "Mascota no comió" }));
         ComboMascotaInforme.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1049,9 +1074,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel99.setForeground(new java.awt.Color(74, 89, 42));
         jLabel99.setText("Fecha:");
 
-        DetalleTxt.setBackground(new java.awt.Color(166, 81, 73));
+        DetalleTxt.setBackground(new java.awt.Color(217, 185, 126));
         DetalleTxt.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
-        DetalleTxt.setForeground(new java.awt.Color(217, 185, 126));
+        DetalleTxt.setForeground(new java.awt.Color(166, 81, 73));
         jScrollPane1.setViewportView(DetalleTxt);
 
         javax.swing.GroupLayout DatosMascota22Layout = new javax.swing.GroupLayout(DatosMascota22);
@@ -1148,6 +1173,139 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Registrar conflicto", Conflicto);
 
+        VisualizarAnimales.setBackground(new java.awt.Color(220, 232, 242));
+
+        DatosMascota6.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), " ", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Century Gothic", 1, 12), new java.awt.Color(74, 89, 42))); // NOI18N
+        DatosMascota6.setOpaque(false);
+
+        jLabel22.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(74, 89, 42));
+        jLabel22.setText("Filtro:");
+
+        ComboEspecieComida3.setBackground(new java.awt.Color(217, 185, 126));
+        ComboEspecieComida3.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
+        ComboEspecieComida3.setForeground(new java.awt.Color(166, 81, 73));
+        ComboEspecieComida3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Perro", "Gato", "Pez", "Pájaro" }));
+        ComboEspecieComida3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ComboEspecieComida3ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout DatosMascota6Layout = new javax.swing.GroupLayout(DatosMascota6);
+        DatosMascota6.setLayout(DatosMascota6Layout);
+        DatosMascota6Layout.setHorizontalGroup(
+            DatosMascota6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DatosMascota6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(DatosMascota6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel22)
+                    .addComponent(ComboEspecieComida3, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        DatosMascota6Layout.setVerticalGroup(
+            DatosMascota6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DatosMascota6Layout.createSequentialGroup()
+                .addComponent(jLabel22)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(ComboEspecieComida3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(289, Short.MAX_VALUE))
+        );
+
+        DatosMascota26.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Detalles", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Century Gothic", 1, 12), new java.awt.Color(74, 89, 42))); // NOI18N
+        DatosMascota26.setOpaque(false);
+
+        jTable1.setBackground(new java.awt.Color(217, 185, 126));
+        jTable1.setForeground(new java.awt.Color(166, 81, 73));
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Especie", "Nombre", "Dueño", "Alimentado"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane2.setViewportView(jTable1);
+
+        javax.swing.GroupLayout DatosMascota26Layout = new javax.swing.GroupLayout(DatosMascota26);
+        DatosMascota26.setLayout(DatosMascota26Layout);
+        DatosMascota26Layout.setHorizontalGroup(
+            DatosMascota26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DatosMascota26Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 542, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        DatosMascota26Layout.setVerticalGroup(
+            DatosMascota26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DatosMascota26Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        InscribirBttn5.setBackground(new java.awt.Color(217, 185, 126));
+        InscribirBttn5.setFont(new java.awt.Font("Century Gothic", 1, 24)); // NOI18N
+        InscribirBttn5.setForeground(new java.awt.Color(74, 89, 42));
+        InscribirBttn5.setText("Guardar cambios");
+        InscribirBttn5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                InscribirBttn5ActionPerformed(evt);
+            }
+        });
+
+        InscribirBttn6.setBackground(new java.awt.Color(217, 185, 126));
+        InscribirBttn6.setFont(new java.awt.Font("Century Gothic", 1, 24)); // NOI18N
+        InscribirBttn6.setForeground(new java.awt.Color(74, 89, 42));
+        InscribirBttn6.setText("Resetear datos");
+        InscribirBttn6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                InscribirBttn6ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout VisualizarAnimalesLayout = new javax.swing.GroupLayout(VisualizarAnimales);
+        VisualizarAnimales.setLayout(VisualizarAnimalesLayout);
+        VisualizarAnimalesLayout.setHorizontalGroup(
+            VisualizarAnimalesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(VisualizarAnimalesLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(VisualizarAnimalesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(InscribirBttn5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(DatosMascota6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addGroup(VisualizarAnimalesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(DatosMascota26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(InscribirBttn6, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(24, Short.MAX_VALUE))
+        );
+        VisualizarAnimalesLayout.setVerticalGroup(
+            VisualizarAnimalesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, VisualizarAnimalesLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(VisualizarAnimalesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(DatosMascota26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(DatosMascota6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(VisualizarAnimalesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(InscribirBttn5)
+                    .addComponent(InscribirBttn6))
+                .addGap(7, 7, 7))
+        );
+
+        jTabbedPane1.addTab("Tabla animal", VisualizarAnimales);
+
         javax.swing.GroupLayout PanelPrincipalLayout = new javax.swing.GroupLayout(PanelPrincipal);
         PanelPrincipal.setLayout(PanelPrincipalLayout);
         PanelPrincipalLayout.setHorizontalGroup(
@@ -1160,7 +1318,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         PanelPrincipalLayout.setVerticalGroup(
             PanelPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelPrincipalLayout.createSequentialGroup()
-                .addContainerGap(34, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 460, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -1263,6 +1421,22 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_InscribirBttn3ActionPerformed
 
+    private void InscribirBttn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InscribirBttn4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_InscribirBttn4ActionPerformed
+
+    private void ComboEspecieComida3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ComboEspecieComida3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ComboEspecieComida3ActionPerformed
+
+    private void InscribirBttn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InscribirBttn5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_InscribirBttn5ActionPerformed
+
+    private void InscribirBttn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InscribirBttn6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_InscribirBttn6ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1305,6 +1479,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> ComboEspecie;
     private javax.swing.JComboBox<String> ComboEspecieComida;
     private javax.swing.JComboBox<String> ComboEspecieComida2;
+    private javax.swing.JComboBox<String> ComboEspecieComida3;
     private javax.swing.JComboBox<String> ComboMascotaInforme;
     private javax.swing.JPanel Comida;
     private javax.swing.JTextField ComidaDisponibleAve;
@@ -1328,8 +1503,10 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JPanel DatosMascota21;
     private javax.swing.JPanel DatosMascota22;
     private javax.swing.JPanel DatosMascota25;
+    private javax.swing.JPanel DatosMascota26;
     private javax.swing.JPanel DatosMascota3;
     private javax.swing.JPanel DatosMascota5;
+    private javax.swing.JPanel DatosMascota6;
     private javax.swing.JPanel DatosOwner;
     private javax.swing.JTextPane DetalleTxt;
     private javax.swing.JTextField FechaIngreso;
@@ -1338,6 +1515,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton InscribirBttn;
     private javax.swing.JButton InscribirBttn1;
     private javax.swing.JButton InscribirBttn3;
+    private javax.swing.JButton InscribirBttn4;
+    private javax.swing.JButton InscribirBttn5;
+    private javax.swing.JButton InscribirBttn6;
     private javax.swing.JButton LimpiarBttn;
     private javax.swing.JTextField NombreMascota;
     private javax.swing.JTextField NombreOwner;
@@ -1355,6 +1535,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JTextField TiempoComidaGato;
     private javax.swing.JTextField TiempoComidaPerro;
     private javax.swing.JTextField TiempoComidaPez;
+    private javax.swing.JPanel VisualizarAnimales;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel100;
@@ -1371,6 +1552,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -1388,6 +1570,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel94;
     private javax.swing.JLabel jLabel99;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 }

@@ -55,7 +55,7 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="34" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
                   <Component id="jTabbedPane1" min="-2" pref="460" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -87,8 +87,8 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Registrar nueva mascota">
-                    <Property name="tabTitle" type="java.lang.String" value="Registrar nueva mascota"/>
+                  <JTabbedPaneConstraints tabName="Nueva mascota">
+                    <Property name="tabTitle" type="java.lang.String" value="Nueva mascota"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -214,13 +214,13 @@
                     <Component class="javax.swing.JTextField" name="NombreMascota">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                       </Properties>
                     </Component>
@@ -238,13 +238,13 @@
                     <Component class="javax.swing.JComboBox" name="ComboEspecie">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                           <StringArray count="4">
@@ -347,13 +347,13 @@
                     <Component class="javax.swing.JTextField" name="NombreOwner">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                       </Properties>
                     </Component>
@@ -382,13 +382,13 @@
                     <Component class="javax.swing.JTextField" name="NumeroTelefono">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                       </Properties>
                     </Component>
@@ -465,13 +465,13 @@
                     <Component class="javax.swing.JTextField" name="FechaIngreso">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="text" type="java.lang.String" value="DD/MM/AA"/>
                       </Properties>
@@ -514,13 +514,13 @@
                     <Component class="javax.swing.JTextField" name="PrecioFinal">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
@@ -540,13 +540,13 @@
                     <Component class="javax.swing.JTextField" name="PrecioPDia">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
@@ -592,8 +592,8 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Registrar periodo de alimentaci&#xf3;n">
-                    <Property name="tabTitle" type="java.lang.String" value="Registrar periodo de alimentaci&#xf3;n"/>
+                  <JTabbedPaneConstraints tabName="Alimentar">
+                    <Property name="tabTitle" type="java.lang.String" value="Alimentar"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -717,13 +717,13 @@
                     <Component class="javax.swing.JTextField" name="TiempoComidaPerro">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
@@ -742,13 +742,13 @@
                     <Component class="javax.swing.JTextField" name="TiempoComidaGato">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
@@ -770,13 +770,13 @@
                     <Component class="javax.swing.JTextField" name="TiempoComidaPez">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
@@ -795,13 +795,13 @@
                     <Component class="javax.swing.JTextField" name="TiempoComidaAve">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
@@ -917,13 +917,13 @@
                     <Component class="javax.swing.JTextField" name="ComidaDisponiblePerro">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="11"/>
                         <Property name="focusable" type="boolean" value="false"/>
@@ -932,13 +932,13 @@
                     <Component class="javax.swing.JTextField" name="ComidaDisponibleGato">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="11"/>
                         <Property name="focusable" type="boolean" value="false"/>
@@ -961,13 +961,13 @@
                     <Component class="javax.swing.JTextField" name="ComidaDisponiblePez">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="11"/>
                         <Property name="focusable" type="boolean" value="false"/>
@@ -979,13 +979,13 @@
                     <Component class="javax.swing.JTextField" name="ComidaDisponibleAve">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="11"/>
                         <Property name="focusable" type="boolean" value="false"/>
@@ -1048,8 +1048,8 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Registrar comida">
-                    <Property name="tabTitle" type="java.lang.String" value="Registrar comida"/>
+                  <JTabbedPaneConstraints tabName="Inventario comida">
+                    <Property name="tabTitle" type="java.lang.String" value="Inventario comida"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -1154,13 +1154,13 @@
                     <Component class="javax.swing.JComboBox" name="ComboEspecieComida">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                           <StringArray count="4">
@@ -1299,13 +1299,13 @@
                     <Component class="javax.swing.JTextField" name="ComidaDisponiblePerro18">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="11"/>
                         <Property name="focusable" type="boolean" value="false"/>
@@ -1314,13 +1314,13 @@
                     <Component class="javax.swing.JTextField" name="ComidaDisponibleGato18">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="11"/>
                         <Property name="focusable" type="boolean" value="false"/>
@@ -1343,13 +1343,13 @@
                     <Component class="javax.swing.JTextField" name="ComidaDisponiblePez18">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="11"/>
                         <Property name="focusable" type="boolean" value="false"/>
@@ -1361,13 +1361,13 @@
                     <Component class="javax.swing.JTextField" name="ComidaDisponibleAve18">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="11"/>
                         <Property name="focusable" type="boolean" value="false"/>
@@ -1424,9 +1424,15 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="DatosMascota5" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="InscribirBttn3" max="32767" attributes="0"/>
+                              <Component id="DatosMascota5" max="32767" attributes="0"/>
+                          </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="DatosMascota25" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="DatosMascota25" min="-2" max="-2" attributes="0"/>
+                              <Component id="InscribirBttn4" min="-2" pref="227" max="-2" attributes="0"/>
+                          </Group>
                           <EmptySpace pref="24" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -1439,7 +1445,12 @@
                               <Component id="DatosMascota25" alignment="1" max="32767" attributes="0"/>
                               <Component id="DatosMascota5" alignment="1" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="InscribirBttn3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="InscribirBttn4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1466,10 +1477,9 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLabel21" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="ComboEspecieComida2" alignment="0" pref="250" max="32767" attributes="0"/>
-                                  <Component id="InscribirBttn3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="ComboEspecieComida2" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="32767" attributes="0"/>
                           </Group>
@@ -1482,8 +1492,6 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="ComboEspecieComida2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="InscribirBttn3" min="-2" pref="60" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1503,13 +1511,13 @@
                     <Component class="javax.swing.JComboBox" name="ComboEspecieComida2">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                           <StringArray count="4">
@@ -1526,23 +1534,6 @@
                       <AuxValues>
                         <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
                       </AuxValues>
-                    </Component>
-                    <Component class="javax.swing.JButton" name="InscribirBttn3">
-                      <Properties>
-                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
-                        </Property>
-                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                          <Font name="Century Gothic" size="24" style="1"/>
-                        </Property>
-                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="2a" green="59" red="4a" type="rgb"/>
-                        </Property>
-                        <Property name="text" type="java.lang.String" value="Guardar cambios"/>
-                      </Properties>
-                      <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InscribirBttn3ActionPerformed"/>
-                      </Events>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -1614,7 +1605,7 @@
                               <Component id="jLabel101" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="ComidaDisponibleAve20" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="57" max="32767" attributes="0"/>
+                              <EmptySpace pref="55" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1645,13 +1636,13 @@
                     <Component class="javax.swing.JTextField" name="ComidaDisponiblePerro20">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="11"/>
                       </Properties>
@@ -1659,13 +1650,13 @@
                     <Component class="javax.swing.JTextField" name="ComidaDisponibleGato20">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="11"/>
                       </Properties>
@@ -1687,13 +1678,13 @@
                     <Component class="javax.swing.JTextField" name="ComidaDisponiblePez20">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="11"/>
                       </Properties>
@@ -1704,13 +1695,13 @@
                     <Component class="javax.swing.JTextField" name="ComidaDisponibleAve20">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="18" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="11"/>
                       </Properties>
@@ -1728,6 +1719,40 @@
                     </Component>
                   </SubComponents>
                 </Container>
+                <Component class="javax.swing.JButton" name="InscribirBttn3">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Century Gothic" size="24" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="2a" green="59" red="4a" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Guardar cambios"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InscribirBttn3ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="InscribirBttn4">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Century Gothic" size="24" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="2a" green="59" red="4a" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Resetear datos"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InscribirBttn4ActionPerformed"/>
+                  </Events>
+                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="Conflicto">
@@ -1886,13 +1911,13 @@
                     <Component class="javax.swing.JComboBox" name="ComboCausa">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="16" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                           <StringArray count="3">
@@ -1912,13 +1937,13 @@
                     <Component class="javax.swing.JComboBox" name="ComboMascotaInforme">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Century Gothic" size="16" style="1"/>
                         </Property>
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
                         </Property>
                         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                           <StringArray count="3">
@@ -1966,13 +1991,13 @@
                         <Component class="javax.swing.JTextPane" name="DetalleTxt">
                           <Properties>
                             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="49" green="51" red="a6" type="rgb"/>
+                              <Color blue="7e" green="b9" red="d9" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Century Gothic" size="14" style="1"/>
                             </Property>
                             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                              <Color blue="49" green="51" red="a6" type="rgb"/>
                             </Property>
                           </Properties>
                         </Component>
@@ -2012,6 +2037,240 @@
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LimpiarBttnActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="VisualizarAnimales">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f2" green="e8" red="dc" type="rgb"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Tabla animal">
+                    <Property name="tabTitle" type="java.lang.String" value="Tabla animal"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="InscribirBttn5" alignment="1" max="32767" attributes="0"/>
+                              <Component id="DatosMascota6" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="DatosMascota26" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="InscribirBttn6" alignment="1" min="-2" pref="227" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="24" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="DatosMascota26" alignment="1" max="32767" attributes="0"/>
+                              <Component id="DatosMascota6" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="InscribirBttn5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="InscribirBttn6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="DatosMascota6">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder title=" ">
+                          <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                            <EtchetBorder/>
+                          </Border>
+                          <Font PropertyName="font" name="Century Gothic" size="12" style="1"/>
+                          <Color PropertyName="color" blue="2a" green="59" red="4a" type="rgb"/>
+                        </TitledBorder>
+                      </Border>
+                    </Property>
+                    <Property name="opaque" type="boolean" value="false"/>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel22" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ComboEspecieComida3" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ComboEspecieComida3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="289" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel22">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Century Gothic" size="18" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="2a" green="59" red="4a" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Filtro:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="ComboEspecieComida3">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Century Gothic" size="18" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="49" green="51" red="a6" type="rgb"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="4">
+                            <StringItem index="0" value="Perro"/>
+                            <StringItem index="1" value="Gato"/>
+                            <StringItem index="2" value="Pez"/>
+                            <StringItem index="3" value="P&#xe1;jaro"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ComboEspecieComida3ActionPerformed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="DatosMascota26">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder title="Detalles">
+                          <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                            <EtchetBorder/>
+                          </Border>
+                          <Font PropertyName="font" name="Century Gothic" size="12" style="1"/>
+                          <Color PropertyName="color" blue="2a" green="59" red="4a" type="rgb"/>
+                        </TitledBorder>
+                      </Border>
+                    </Property>
+                    <Property name="opaque" type="boolean" value="false"/>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" pref="542" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" pref="0" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTable" name="jTable1">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                            </Property>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="49" green="51" red="a6" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                              <Table columnCount="4" rowCount="4">
+                                <Column editable="false" title="Especie" type="java.lang.Object"/>
+                                <Column editable="false" title="Nombre" type="java.lang.Object"/>
+                                <Column editable="false" title="Due&#xf1;o" type="java.lang.Object"/>
+                                <Column editable="false" title="Alimentado" type="java.lang.Object"/>
+                              </Table>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JButton" name="InscribirBttn5">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Century Gothic" size="24" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="2a" green="59" red="4a" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Guardar cambios"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InscribirBttn5ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="InscribirBttn6">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="7e" green="b9" red="d9" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Century Gothic" size="24" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="2a" green="59" red="4a" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Resetear datos"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InscribirBttn6ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
